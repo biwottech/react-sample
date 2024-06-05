@@ -3,7 +3,7 @@ import PhoneNumberInput from "./components/PhoneNumberInput";
 import CallInProgress from "./components/CallInProgress";
 import axios from "axios";
 import "./App.css";
-const server_url = "http://localhost:5000";
+const server_url = "https://express-vonage-openai.onrender.com";
 
 function App() {
   const [status, setStatus] = useState("idle");
